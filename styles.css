@@ -238,15 +238,17 @@ footer {
     }
 }
 
-  @media only screen and (max-width: 450px) {
-    
-    .navbar-brand {
-        font-size: 1.5rem;
-    }
-
+@media only screen and (max-width: 540px) {
     .aWorldApartHeading {
         padding-top: 1.5rem;
         padding-bottom: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    
+    .navbar-brand {
+        font-size: 1.5rem;
     }
 
     .aWorldApartHeading, .aWorldApartParagraph {
@@ -259,10 +261,9 @@ footer {
     }
 }
 
-  @media only screen and (max-width: 360px) {
-
-    .aWorldApartHeading, .aWorldApartParagraph {
-        padding-left: 1rem;
-        padding-right: 1rem;
+@media only screen and (max-width: 375px) {
+    .aWorldApartHeading {
+        font-size: 2rem;
     }
 }
+
