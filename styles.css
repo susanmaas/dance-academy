@@ -113,7 +113,6 @@ li {
     border-radius: 50%;
     width: 20%;
     height: 20%;
-    shape-outside: circle(50%);
 }
 
 .centralImage {
