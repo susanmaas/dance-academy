@@ -1,24 +1,72 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+
 body {
     font-family: 'M PLUS 1p', sans-serif;
     background-color: rgb(72, 64, 69);
     color: white;
 }
 
-.navbar-brand {
+li {
+    list-style-type: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+small {
+    font-size: 0.8rem;
+}
+
+.navListItem:hover, .discoverListItems:hover {
+    color: rgb(214, 29, 140);
+    text-decoration: underline;
+}
+
+.logo {
     font-size: 3rem;
     font-family: 'Cinzel', serif;
-    padding-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.logo:hover {
+    text-decoration: none;
+}
+
+.main-title1 {
+    color: white;
+}
+.main-title2 {
+    color: rgb(214, 29, 140);
 }
 
 .hero {
+    display: flex;
+    justify-content: space-between;
     background-image: url("/images/andrea-palacios-1412196-unsplash800px2.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
 }  
 
-.main-title {
-    color: rgb(214, 29, 140);
+.navList {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    padding: 0;
+}
+
+.navListItem {
+    margin-left: 1rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
 }
 
 .aWorldApart {
@@ -78,7 +126,7 @@ body {
     font-family: 'Abril Fatface', cursive;
     font-size: 4rem;
     padding-top: 9rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
     text-align: center;
 }
 
@@ -97,10 +145,8 @@ body {
     height: auto;
 }
 
-li {
-    list-style-type: none;
+.discoverListItems {
     line-height: 3;
-    font-size: 1.5rem;
 }
 
 .roundImages {
@@ -154,6 +200,21 @@ footer {
     }
 }
 
+@media only screen and (max-width: 1150px) {
+    .hero {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .logo {
+        margin-left: 1rem;
+    }
+    .navListItem {
+        margin-top: 0;
+    }
+    
+}
+
 @media only screen and (max-width: 1160px) {
     .discoverHeading {
         font-size: 3rem;
@@ -183,6 +244,7 @@ footer {
     .discoverHeading {
         font-size: 2.5rem;
         padding-top: 2rem;
+        margin-left: 1rem;
     }
     
     .discoverItems {
@@ -190,9 +252,15 @@ footer {
         margin-left: 1rem;
     }
 
-    li {
+    .discoverListItems {
         line-height: 2;
         font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    li {
+        font-size: 1rem;
     }
 }
 
@@ -214,7 +282,7 @@ footer {
         margin-left: 0;
     }
 
-    li {
+    .discoverListItems {
         line-height: 2;
         font-size: 1rem;
     }
@@ -222,7 +290,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
     
-    .navbar-brand {
+    .logo {
         font-size: 2.5rem;
     }
 
@@ -246,7 +314,7 @@ footer {
 
 @media only screen and (max-width: 450px) {
     
-    .navbar-brand {
+    .logo {
         font-size: 1.5rem;
     }
 
