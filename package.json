@@ -1,0 +1,23 @@
+{
+  "name": "DanceSchool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/susanmaas/Dance-School.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/susanmaas/Dance-School/issues"
+  },
+  "homepage": "https://susanmaas.github.io/dance-school",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
