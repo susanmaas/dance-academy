@@ -50,7 +50,7 @@ small {
 .hero {
     display: flex;
     justify-content: space-between;
-    background-image: url("/images/andrea-palacios-1412196-unsplash800px2.jpg");
+    background-image: url("images/andrea-palacios-1412196-unsplash800px2.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -73,7 +73,7 @@ small {
     position: relative;
     width: 100%;
     min-height: 400px;
-    background: url("../images/naassom-azevedo-541451-unsplash1600pxcropped.jpg");
+    background: url("images/naassom-azevedo-541451-unsplash1600pxcropped.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -332,5 +332,37 @@ footer {
     .aWorldApartHeading {
         font-size: 2rem;
     }
+}
+
+.pageLayout {
+    padding: 2rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLinks {
+    color: white;
+}
+
+.footerLink2 {
+    margin-left: 1rem;
+}
+
+.homeButtonTopMargin {
+    margin-top: 4rem;
+}
+
+.homeButton {
+    background-color: blue;
+    padding: 0.2rem;
+    border-radius: 10%;
+    border: none;
+}
+
+.homeButtonText {
+    color: white;
 }
 
