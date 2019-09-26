@@ -1,5 +1,5 @@
 {
-  "name": "DanceSchool",
+  "name": "dance-school",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/susanmaas/Dance-School.git"
+    "url": "git+https://github.com/susanmaas/dance-school.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/susanmaas/Dance-School/issues"
+    "url": "https://github.com/susanmaas/dance-school/issues"
   },
   "homepage": "https://susanmaas.github.io/dance-school",
   "dependencies": {
