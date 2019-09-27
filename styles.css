@@ -12,21 +12,22 @@ body {
 
 li {
     list-style-type: none;
-    font-size: 1.5rem;
-    color: white;
+    
 }
 
 a {
     text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
 }
 
-small {
-    font-size: 0.8rem;
-}
-
-.navListItem:hover, .discoverListItems:hover {
+a:hover {
     color: rgb(214, 29, 140);
     text-decoration: underline;
+}
+
+.smallText {
+    font-size: 0.8rem;
 }
 
 .logo {
@@ -341,10 +342,6 @@ footer {
 footer {
     display: flex;
     flex-direction: column;
-}
-
-.footerLinks {
-    color: white;
 }
 
 .homeButtonTopMargin {
