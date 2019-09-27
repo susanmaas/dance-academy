@@ -12,7 +12,6 @@ body {
 
 li {
     list-style-type: none;
-    
 }
 
 a {
@@ -317,6 +316,14 @@ footer {
     
     .logo {
         font-size: 1.5rem;
+    }
+
+    .mobileAnchor {
+        font-size: 1rem;
+    }
+
+    .discoverItems {
+        flex-wrap: wrap;
     }
 
     .aWorldApartHeading, .aWorldApartParagraph {
