@@ -173,14 +173,14 @@ footer {
     text-align: center;
 }
 
-@media only screen and (max-width: 1180px) {
+@media (max-width: 1180px) {
     .aWorldApartHeading, .aWorldApartParagraph {
         padding-left: 7rem;
         padding-right: 7rem;
     }
 }
 
-@media only screen and (max-width: 1160px) {
+@media (max-width: 1160px) {
     .discoverInner {
         flex-direction: column;
     }
@@ -200,7 +200,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1150px) {
+@media (max-width: 1160px) {
     .hero {
         flex-direction: column;
         justify-content: flex-start;
@@ -212,10 +212,7 @@ footer {
     .navListItem {
         margin-top: 0;
     }
-    
-}
 
-@media only screen and (max-width: 1160px) {
     .discoverHeading {
         font-size: 3rem;
         padding-top: 3rem;
@@ -227,7 +224,7 @@ footer {
     }
 }
 
-  @media only screen and (max-width: 910px) {
+  @media (max-width: 910px) {
     
     .aWorldApartHeading {
         padding-top: 5rem;
@@ -240,7 +237,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 870px) {
+@media (max-width: 870px) {
     .discoverHeading {
         font-size: 2.5rem;
         padding-top: 2rem;
@@ -254,17 +251,13 @@ footer {
 
     .discoverListItems {
         line-height: 2;
-        font-size: 1.5rem;
     }
 }
 
-@media only screen and (max-width: 720px) {
-    li {
+@media (max-width: 645px) {
+    a {
         font-size: 1rem;
     }
-}
-
-@media only screen and (max-width: 645px) {
     .discover {
         flex-direction: column;
     }
@@ -281,14 +274,9 @@ footer {
         text-align: center;
         margin-left: 0;
     }
-
-    .discoverListItems {
-        line-height: 2;
-        font-size: 1rem;
-    }
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
     
     .logo {
         font-size: 2.5rem;
@@ -305,14 +293,14 @@ footer {
     }
 }
 
-@media only screen and (max-width: 540px) {
+@media (max-width: 540px) {
     .aWorldApartHeading {
         padding-top: 1.5rem;
         padding-bottom: 0.5rem;
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media (max-width: 450px) {
     
     .logo {
         font-size: 1.5rem;
@@ -334,9 +322,18 @@ footer {
     .aWorldApartParagraph {
         padding-top: 0rem;
     }
+    .round {
+        width: 28%;
+        height: 28%;
+    }
+
+    .centralImage {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }
 
-@media only screen and (max-width: 375px) {
+@media (max-width: 375px) {
     .aWorldApartHeading {
         font-size: 2rem;
     }
